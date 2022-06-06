@@ -1,6 +1,6 @@
 import turtle as t
 # 색상 리스트
-cols - ['red', 'blue', 'green', 'purple', 'magenta', 'black', 'gray', 'yellow', 'cyan', 'orange', 'aqua']
+cols = ['red', 'blue', 'green', 'purple', 'magenta', 'black', 'gray', 'yellow', 'cyan', 'orange', 'aqua']
 
 def drawpolygon(n, size):
     ''' 한 변의 길이가 size인 n각형 그리기'''
@@ -10,7 +10,7 @@ def drawpolygon(n, size):
         t.left(360/n) #각도 수정
 
 t.setup(500, 400) # 초기 윈도의 크기 조정
-t. speed(3) % 1에서 10까지 거북이 속도 증가, 0이면 최고속
+t. speed(3) # 1에서 10까지 거북이 속도 증가, 0이면 최고속
 
 t.pu() # 이동에 선이 그려지지 않도록
 t.goto(-50, -170) # 처음 위치로 이동
